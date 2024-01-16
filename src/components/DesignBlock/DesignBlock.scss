@@ -1,0 +1,43 @@
+.design {
+  margin-top: 337px;
+}
+.design-info {
+  text-align: center;
+  &__title {
+    color: #12100c;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 71.82px;
+  }
+
+  &__desc {
+    margin-top: 49px;
+    color: rgba(18, 16, 12, 0.7);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+  }
+}
+.design-nav {
+  margin-top: 52px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  &__chrome {
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #fff;
+    box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.1);
+    padding: 8px 12px;
+   
+  }
+
+  &__firefox {
+    border-radius: 9px;
+    border: 1px solid #000;
+    background: #fff;
+    box-shadow: 0px 0.5px 2px 0px rgba(0, 0, 0, 0.1);
+    padding: 8px 12px;
+  }
+}

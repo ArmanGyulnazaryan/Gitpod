@@ -1,0 +1,71 @@
+.devrloper {
+    margin-top: 176px;
+  
+    &__title {
+      color: #12100c;
+      text-align: center;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 63.72px;
+    }
+  }
+  .developer-info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+  
+    &__item {
+      margin-top: 57px;
+    }
+  
+    &__title {
+      color: #12100c;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding-bottom: 10px;
+    }
+  
+    &__desc {
+      color: #12100c;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+  .developer-dev {
+    padding-top: 14px;
+    text-align: center;
+  
+    &__name {
+      color: #12100c;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+  
+    &__prof {
+      color: #12100c;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  
+    &__email {
+      color: #12100c;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+    }
+    span {
+      color: #12100c;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+  }
+  

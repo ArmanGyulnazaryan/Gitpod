@@ -1,0 +1,26 @@
+.project {
+    margin-top: 158px;
+   
+  &__info {
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+    
+   
+    span {
+      color: #12100c;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 63.72px; 
+    }
+  }
+
+  &__desc {
+    color: #999795;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 63.72px; 
+   text-decoration: line-through;
+  
+  }
+}

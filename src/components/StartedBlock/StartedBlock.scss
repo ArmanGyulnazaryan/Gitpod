@@ -1,0 +1,139 @@
+.started {
+  margin-top: 177px;
+
+  &__title {
+    color: #12100c;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 71.82px;
+  }
+}
+.started-block {
+  border-radius: 20px;
+  background: #fff;
+  margin-top: 100px;
+  display: flex;
+ 
+  padding: 56px 78px 86px 78px;
+
+  gap: 26px;
+}
+.started-repository {
+  
+  padding: 56px 78px 86px 78px;
+
+  &__title {
+    color: #12100c;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.92px;
+    max-width: 486px;
+    margin-top: 64px;
+    
+    span {
+      border-radius: 12px;
+      background: #ffe4bc;
+      margin: 6px 146px;    }
+  }
+}
+.started-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+  gap: 16px;
+  padding-top: 62px;
+
+  span {
+    color: #fff;
+  }
+
+  &__gitlab {
+    padding: 14px 33px;
+    border-radius: 12px;
+    background: #fc6d26;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  &__github {
+    padding: 14px 33px;
+    border-radius: 12px;
+    background: #000;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  
+
+  &__bitbucket {
+    padding: 14px 33px;
+    border-radius: 12px;
+    background: #2684ff;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+.started-work {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 58px 56px 86px 56px;
+  width: 642px;
+  &__title {
+    color: #12100c;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  &__desc {
+    color: rgba(18, 16, 12, 0.7);
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31.92px;
+    padding-bottom: 32px;
+  }
+}
+
+.started-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 55px;
+  align-items: center;
+
+  &__img {
+    span {
+      color: rgba(18, 16, 12, 0.7);
+      text-align: center;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px;
+      padding-left: 16px;
+    }
+  }
+
+  &__btn {
+    padding: 7px 12px;
+    border-radius: 12px;
+    background: #12100c;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    a {
+      color: #fff;
+    }
+  }
+}

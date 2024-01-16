@@ -1,0 +1,21 @@
+.wrapper {
+  max-width: 1140px;
+  margin-left: 150px;
+
+  img {
+    flex-shrink: 0;
+  }
+}
+.wrapper-logo1 {
+  display: flex;
+  align-items: center;
+  margin-top: 133px;
+  justify-content: space-between;
+}
+.wrapper-logo2 {
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+  gap: 61px;
+  padding-left: 188px;
+}
